@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_search_results">No Search Results</string>
+    <string name="voice_search_content_description">voice_search</string>
+    <string name="popular_tags">Popular Tags:</string>
+    <string name="football">Football</string>
+    <string name="cricket">Cricket</string>
+    <string name="covid_19">Covid-19</string>
+    <string name="business_stocks">Business Stocks</string>
+    <string name="bitcoin">Bitcoin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="filters">
+        <item>business</item>
+        <item>politics</item>
+        <item>education</item>
+        <item>fashion</item>
+        <item>film</item>
+        <item>sport</item>
+        <item>world</item>
+        <item>jobsadvice</item>
+        <item>weather</item>
+        <item>environment</item>
+    </string-array>
+</resources>

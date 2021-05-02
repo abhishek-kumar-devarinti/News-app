@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal"
+    android:layout_margin="8dp"
+    android:minHeight="104dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+        <ImageView
+            android:background="@android:color/darker_gray"
+            android:layout_margin="16dp"
+            android:id="@+id/thumbnail_image_view"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:id="@+id/news_title_text"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_bold"/>
+            <TextView
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_black"
+                android:id="@+id/news_sectionName_text"
+                android:textSize="12sp"
+                android:layout_marginEnd="16dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/news_time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"/>
+
+
+</RelativeLayout>
